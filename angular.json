@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Afloerp"
+    }
+  },
+  "defaultProject": "Afloerp",
+  "cli": {
+    "analytics": false
+  }
 }

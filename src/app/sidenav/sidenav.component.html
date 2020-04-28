@@ -1,0 +1,35 @@
+
+<mat-drawer-container class="example-container" autosize>
+
+  <!--Composant sidenav-->
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+  
+    <!--Sidenav-->
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item href="#">Link 1</a>
+      <a mat-list-item href="#">Link 2</a>
+      <a mat-list-item href="#">Link 3</a>
+      <a mat-list-item href="#">Link 4</a>
+      <a mat-list-item href="#">Link 5</a>
+      <a mat-list-item href="#">Link 6</a>
+    </mat-nav-list>
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    
+    <!--Barre Laterale-->
+      <mat-toolbar color="primary">
+        <span>Afloerp</span>
+      </mat-toolbar>
+      
+    <button type="button" mat-button (click)="drawer.toggle()">
+
+      <!--Icone Burger-->
+      <span class="material-icons">
+        menu
+        </span>
+    </button>
+  </div>
+
+</mat-drawer-container>
